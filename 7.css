@@ -1,0 +1,165 @@
+section{
+    margin: 5px auto;
+    width: 50%;
+    height: auto;
+    border: 4px solid black;
+    padding: 4px;
+    box-sizing: border-box;
+}
+h1{
+    width: 96%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 0.1em;
+    margin: 0px 0px 0px 0.4em;
+}
+div{
+    display: inline-block;
+}
+input[type='text'],input:placeholder-shown{
+    border: none;
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div label{
+    display: block;
+    font-weight: 300;
+}
+#Address, #Address input[type='text']{
+    box-sizing: border-box;
+    display: block;
+    width: 92%;
+    float: left;
+    padding: 0.3em 0.3em 0.3em 0.9em;
+}
+
+#Subscribe{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 900;
+}
+
+#Subscribe label{
+    display: inline;
+}
+#information{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight:900
+}
+#information p{
+    margin: 0px;
+    padding: 0px;
+}
+#information div{
+    display: block;
+}
+#information label{
+    display: inline;
+}
+#first_last{
+    width: 97%;
+    height: auto;
+    box-sizing: border-box;
+}
+#first{
+    width: 40%;
+    float:left;
+    margin: 2% 4%;
+    /* padding: 0.3em 0.3em 0.3em 0.9em; */
+}
+#last{
+    float:right;
+    width: 40%;
+    margin: 2% 4%;
+    /* padding: 0.3em 0.3em 0.3em 0.9em; */
+}
+.first_last1 input[type='text']{
+    width: 100%;
+}
+#first input[type='text']{
+    width: 95%;
+}
+#last input[type='text']{
+    width: 95%;
+}
+#city_state_zip{
+    width: 92%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#city{
+    width: 30%;
+    float: left;
+    margin: calc(10%/6)
+}
+#state{
+    width: 30%;
+    margin: calc(10%/6)
+}
+#zip{
+    width: 30%;
+    float: right;
+    margin: calc(10%/6)
+}
+.common input[type='text']{
+    width: 100%;
+}
+#city input[type='text']{
+    width: 77%;
+}
+#state input[type='text'] {
+    width: 60%;
+}
+#zip input[type='text']{
+    width: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #city_state_zip .common{
+    width: 30%;
+    margin: calc(10%/6);
+    display: inline-block;
+}
+#city_state_zip .city{
+    background-color: aqua;
+}
+#city_state_zip .state {
+    background-color:blue;
+}
+#city_state_zip .zip {
+    background-color:crimson;
+} */
+/* .city{
+    width: 30%;
+    float: left;
+}
+.state{
+    width: 20%;
+}
+.zip{
+    width: 50%;
+    float: right;
+} */
+
+
+
+
+
